@@ -5,4 +5,5 @@ app_name='modelapp'
 
 urlpatterns=[ 
  path('book/',views.Bookview,name='book'),
+ path('bookup/<pk>/',views.Bookupdate,name='bookup'),
 ]
